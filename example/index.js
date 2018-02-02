@@ -41,7 +41,7 @@ class Example extends Component {
     render() {
 
         return (
-            <KioskMode />
+            <Immersive />
         );
     }
 }

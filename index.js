@@ -7,7 +7,7 @@ export default KioskMode;
 
 import _ from 'lodash';
 
-export class KioskMode extends Component {
+export class Immersive extends Component {
     constructor(props, context) {
         super(props, context)
         this.autoKioskMode = _.debounce(KioskMode.autoKioskMode, 200);
