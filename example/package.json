@@ -1,0 +1,13 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "setupDev" : "mkdir node_modules/react-native-kiosk-mode/; rm -rf node_modules/react-native-kiosk-mode/index.js node_modules/react-native-kiosk-mode/android; ln -s  ../../../android/ node_modules/react-native-kiosk-mode/android;ln -s  ../../../index.js node_modules/react-native-kiosk-mode/index.js; cp ../package.json node_modules/react-native-kiosk-mode/"
+  },
+  "dependencies": {
+    "react-native": "^0.21.0",
+    "react-native-router-flux": "^2.3.9"
+  }
+}

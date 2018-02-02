@@ -1,0 +1,27 @@
+{
+  "name": "react-native-kiosk-mode",
+  "version": "0.0.1",
+  "description": "React Native KioskMode plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sciphergfx/react-native-kiosk-mode.git"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "react-component"
+  ],
+  "author": "Anthony Ou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sciphergfx/react-native-kiosk-mode/issues"
+  },
+  "homepage": "https://github.com/sciphergfx/react-native-kiosk-mode#readme",
+  "dependencies": {
+    "debounce": "^1.0.0"
+  }
+}
