@@ -6,7 +6,10 @@ A simple react native plugin to achieve kiosk mode (immersive mode) on android
 ##### Props: KioskMode
 
 ```html
-{Platform.OS !== 'ios' && <KioskMode />}
+<View>
+    <KioskMode />
+    <RootContainer />
+</View>
 ```
 
 ------------
