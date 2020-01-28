@@ -38,11 +38,11 @@ dependencies {
 }
 ```
 
-Next, you need to change the `MainActivity` of your app to register `KioskModeModule` :
+Next, you need to change the `MainApplication` of your app to register `KioskModeModule` :
 ```java
 import com.rn.kiosk.mode.KioskModeModule;  // add this import
 
-public class MainActivity extends ReactActivity {
+public class MainApplication extends Application implements ReactApplication {
     //...
 
     @Override
