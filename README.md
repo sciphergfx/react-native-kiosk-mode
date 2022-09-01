@@ -1,3 +1,6 @@
+
+# This project is no longer maintained
+
 # React native kiosk mode functionality for Android
 
 A simple react native plugin to achieve kiosk mode (immersive mode) on android
